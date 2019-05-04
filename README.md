@@ -1,2 +1,2 @@
 # USAR-competition
-University organized Urban Search and Rescue Competition (3rd prize)
+University organized Urban Search and Rescue Competition (got 3rd prize with our team)
