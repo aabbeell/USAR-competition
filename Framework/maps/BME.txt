@@ -1,0 +1,252 @@
+// Map size
+60 21
+
+// Cell borders
+. . 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 . . 
+. 2 9 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 3 9 1 1 1 1 1 1 3 9 1 1 1 1 1 1 3 9 1 3 9 3 9 1 3 9 1 1 3 9 1 1 3 9 1 1 1 1 1 3 8 . 
+. 2 8 . . . . . . . . . . . . . . . 2 8 . . . . . . 2 8 . . . . . . 2 8 . 2 8 2 C . 2 8 4 4 2 8 . . 2 8 . . . . . 2 8 . 
+. 2 8 . . . . . 2 8 . . . . . . . . 2 8 . . . . . . 2 8 . . . . . . 2 8 . 2 8 . 3 8 6 8 3 9 . . . . 2 8 . . . . . 2 8 . 
+. 2 8 . . . . . . . 2 8 . . . . . . 2 8 . . . . . . 2 8 . . . . . . 2 8 . 2 8 . 6 8 3 8 2 8 2 8 . . 2 8 . . . . . 2 8 . 
+. 2 8 . . . . . . . . . . . . . . . 2 8 . . . . . . 2 8 . . . . . . 2 8 4 6 C 2 B 8 6 C 6 8 2 C 4 4 6 C 4 . 4 4 4 6 8 . 
+. 2 8 4 . 4 . 4 . 4 . 4 . . 4 . 4 . 2 C . 4 4 4 4 4 6 8 4 4 4 4 4 4 6 8 1 1 1 . . . 3 9 1 . . 1 1 1 1 1 1 . 1 1 1 3 8 . 
+. 2 8 1 . 1 . 1 . 1 . 1 . . 1 . 1 . . 1 . 1 1 1 1 1 1 . 1 1 1 1 1 1 3 8 . . . . . . 2 8 . 4 4 4 4 4 4 4 . 2 C 4 4 6 8 . 
+. 2 8 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2 9 1 1 1 1 1 3 8 2 9 1 1 3 8 . 
+. 2 8 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2 8 . 
+. 2 C 4 4 4 . 4 4 4 . 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 . . 4 4 4 4 4 4 2 8 . . . . . . 2 8 2 C 4 4 4 4 4 6 8 2 C 4 4 6 8 . 
+. 2 9 1 1 1 . 1 1 1 . 1 1 1 1 1 3 9 1 1 1 1 1 1 1 1 2 8 1 3 9 1 3 9 2 8 . . . . . . 2 8 . 1 1 1 1 1 1 1 . 2 9 1 1 3 8 . 
+. 2 8 . . . . . . . . . . . . . 2 8 . . . . . . . . 2 8 . 2 8 . . . 6 C . . 4 . . . 2 C 4 4 . 4 4 4 . 4 4 . 4 4 4 6 8 . 
+. 2 8 . . . . . . . . . . . . . 2 8 . . . . . . . . 2 8 . 2 8 . 2 8 3 9 . . 3 8 . . 2 9 1 1 2 9 1 1 2 9 1 . 1 1 1 3 8 . 
+. 2 8 . . . . . . . . . . . . . 2 8 . . . . . . . . 2 8 . 2 8 . 2 8 2 8 . . 2 8 . . 2 8 . . 2 8 . . 2 8 . . . . . 2 8 . 
+. 2 8 . . . . . . . . . . . . . 2 8 . . . . . . . . 2 8 . 2 8 . 2 8 2 8 . . 2 8 . . 2 8 . . 2 8 . . 2 8 . . . . . 2 8 . 
+. 2 8 . . . . . . . . . . . . . 2 8 . . . . . . . . 2 8 . 2 8 . 2 8 2 8 . . 2 8 . . 2 8 . . 2 8 . . 2 8 . . . . . 2 8 . 
+. 2 C 4 4 4 4 4 4 4 4 4 4 4 4 4 6 C 4 4 4 4 4 4 4 4 6 C 4 6 C 4 6 C 6 X X X X C 4 4 6 C 4 4 6 C 4 4 6 C 4 4 4 4 4 6 8 . 
+. . 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 . . 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 . . 
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . S . . . . . . . . . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+
+// Floors
+
+// Obstacles
+Obstacle 5 1 junk10
+Obstacle 11 1 junk10
+Obstacle 13 1 desk13
+Obstacle 14 1 desk13
+Obstacle 15 1 desk13
+Obstacle 16 1 desk13
+Obstacle 21 1 desk12
+Obstacle 23 1 desk12
+Obstacle 25 1 desk12
+Obstacle 29 1 desk12
+Obstacle 31 1 desk10
+Obstacle 33 1 desk12
+Obstacle 44 1 desk13
+Obstacle 45 1 desk13
+Obstacle 46 1 desk13
+Obstacle 55 1 _desk-02
+Obstacle 56 1 _desk-02
+Obstacle 57 1 _desk-02
+Obstacle 5 2 junk10
+Obstacle 11 2 junk10
+Obstacle 21 2 desk12
+Obstacle 23 2 desk12
+Obstacle 25 2 desk12
+Obstacle 28 2 desk12
+Obstacle 29 2 desk12
+Obstacle 31 2 desk12
+Obstacle 33 2 desk12
+Obstacle 55 2 _desk-02
+Obstacle 5 3 junk10
+Obstacle 13 3 desk13
+Obstacle 14 3 desk13
+Obstacle 15 3 desk13
+Obstacle 16 3 desk13
+Obstacle 20 3 desk12
+Obstacle 21 3 desk12
+Obstacle 23 3 desk12
+Obstacle 25 3 desk12
+Obstacle 48 3 desk13
+Obstacle 49 3 desk13
+Obstacle 50 3 desk13
+Obstacle 52 3 _desk-02
+Obstacle 53 3 _desk-02
+Obstacle 5 4 junk10
+Obstacle 8 4 junk10
+Obstacle 29 4 desk12
+Obstacle 31 4 desk12
+Obstacle 33 4 desk12
+Obstacle 5 5 junk10
+Obstacle 8 5 junk10
+Obstacle 11 5 junk10
+Obstacle 13 5 desk13
+Obstacle 14 5 desk13
+Obstacle 15 5 desk13
+Obstacle 16 5 desk13
+Obstacle 21 5 desk12
+Obstacle 23 5 desk12
+Obstacle 25 5 desk12
+Obstacle 29 5 desk12
+Obstacle 31 5 desk12
+Obstacle 33 5 desk12
+Obstacle 2 6 junk10
+Obstacle 8 6 junk10
+Obstacle 11 6 junk10
+Obstacle 18 6 junk10
+Obstacle 21 6 desk12
+Obstacle 23 6 desk12
+Obstacle 25 6 desk12
+Obstacle 29 6 desk12
+Obstacle 31 6 desk12
+Obstacle 33 6 desk12
+Obstacle 4 7 junk10
+Obstacle 5 7 junk10
+Obstacle 6 7 junk10
+Obstacle 13 7 junk10
+Obstacle 15 7 junk10
+Obstacle 17 7 junk10
+Obstacle 55 7 _desk-02
+Obstacle 56 7 _desk-02
+Obstacle 57 7 _desk-02
+Obstacle 56 10 _desk-02
+Obstacle 57 10 _desk-02
+Obstacle 7 11 junk10
+Obstacle 10 11 junk10
+Obstacle 15 11 junk10
+Obstacle 17 11 desk12
+Obstacle 18 11 desk13
+Obstacle 19 11 desk13
+Obstacle 20 11 desk13
+Obstacle 21 11 desk13
+Obstacle 22 11 desk13
+Obstacle 23 11 desk13
+Obstacle 24 11 desk13
+Obstacle 25 11 desk13
+Obstacle 55 11 _desk-02
+Obstacle 56 11 _desk-02
+Obstacle 57 11 _desk-02
+Obstacle 7 12 junk10
+Obstacle 11 12 junk10
+Obstacle 14 12 junk10
+Obstacle 17 12 desk12
+Obstacle 3 13 junk10
+Obstacle 4 13 junk10
+Obstacle 6 13 junk10
+Obstacle 7 13 junk10
+Obstacle 9 13 junk10
+Obstacle 11 13 junk10
+Obstacle 13 13 junk10
+Obstacle 17 13 desk12
+Obstacle 4 14 junk10
+Obstacle 6 14 junk10
+Obstacle 9 14 junk10
+Obstacle 14 14 junk10
+Obstacle 17 14 desk12
+Obstacle 19 14 desk13
+Obstacle 20 14 desk13
+Obstacle 21 14 desk13
+Obstacle 22 14 desk13
+Obstacle 23 14 desk13
+Obstacle 24 14 desk13
+Obstacle 41 14 _desk-02
+Obstacle 44 14 junk10
+Obstacle 6 15 junk10
+Obstacle 9 15 junk10
+Obstacle 13 15 junk10
+Obstacle 17 15 desk12
+Obstacle 19 15 desk13
+Obstacle 20 15 desk13
+Obstacle 21 15 desk13
+Obstacle 22 15 desk13
+Obstacle 23 15 desk13
+Obstacle 24 15 desk13
+Obstacle 41 15 _desk-02
+Obstacle 45 15 desk12
+Obstacle 48 15 desk12
+Obstacle 53 15 _desk-02
+Obstacle 55 15 _desk-02
+Obstacle 9 16 junk10
+Obstacle 14 16 junk10
+Obstacle 15 16 junk10
+Obstacle 17 16 desk12
+Obstacle 45 16 desk12
+Obstacle 48 16 desk12
+Obstacle 53 16 _desk-02
+Obstacle 55 16 _desk-02
+Obstacle 9 17 junk10
+Obstacle 17 17 desk13
+Obstacle 18 17 desk13
+Obstacle 19 17 desk13
+Obstacle 20 17 desk13
+Obstacle 21 17 desk13
+Obstacle 22 17 desk13
+Obstacle 23 17 desk13
+Obstacle 24 17 desk13
+Obstacle 25 17 desk13
+Obstacle 26 17 desk13
+Obstacle 51 17 _desk-02
+Obstacle 52 17 _desk-02
+Obstacle 53 17 _desk-02
+Obstacle 55 17 _desk-02
+Obstacle 56 17 _desk-02
+Obstacle 57 17 _desk-02
+
+// Injureds
+Injured 56 2 538
+Injured 52 2 690
+Injured 52 4 249
+Injured 56 6 550
+Injured 56 9 233
+Injured 56 12 216
+Injured 56 15 719
+Injured 52 15 287
+Injured 49 15 189
+Injured 44 15 777
+Injured 47 10 443
+Injured 49 10 695
+Injured 49 8 741
+Injured 48 2 293
+Injured 49 2 423
+Injured 44 4 587
+Injured 44 2 7
+Injured 40 2 534
+Injured 40 3 667
+Injured 34 4 825
+Injured 34 5 855
+Injured 34 6 688
+Injured 32 6 799
+Injured 32 5 129
+Injured 32 4 740
+Injured 32 2 205
+Injured 32 1 173
+Injured 34 1 226
+Injured 34 2 390
+Injured 30 4 412
+Injured 30 5 382
+Injured 30 6 556
+Injured 30 2 409
+Injured 30 1 629
+Injured 24 3 234
+Injured 22 6 174
+Injured 19 13 342
+Injured 20 13 355
+Injured 20 16 340
+Injured 22 16 51
+Injured 24 16 645
+Injured 29 14 657
+Injured 14 13 80
+Injured 15 15 303
+Injured 8 15 98
+Injured 9 11 216
+Injured 7 4 210
+Injured 3 2 851
+Injured 3 14 297
+Injured 3 3 633
+Injured 30 17 183
+Injured 40 15 742
+Injured 40 14 696
+Injured 13 2 650
+Injured 16 6 753
+Injured 16 4 487
+Injured 13 6 475
+Injured 14 6 449
+Injured 34 3 489
+Injured 32 3 773

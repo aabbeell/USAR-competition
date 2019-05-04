@@ -1,0 +1,103 @@
+// Map size
+30 20
+
+// Cell borders
+. . 2 8 . 2 8 . 2 8 . 2 8 . 2 8 . 2 8 . 2 8 . 2 8 . 2 8 . . 
+. . 2 8 . 2 8 . 2 8 . 2 8 . 2 8 . 2 8 . 2 8 . 2 8 . 2 8 . . 
+. . 2 8 . 2 8 . 2 8 . 2 8 . 2 8 . 2 8 . 2 8 . 2 8 . 2 8 . . 
+. . 2 8 . 2 8 . 2 8 . 2 8 . 2 8 . 2 8 . 2 8 . 2 8 . 2 8 . . 
+. . 2 C . 6 C . 6 C . 6 C . 6 C . 6 C . 6 C . 6 C . 6 8 . . 
+. . 2 9 . 1 1 . 1 1 . 1 1 . 1 1 . 1 1 . 1 1 . 1 1 . 3 8 . . 
+. . . . . . . . . . . _ . . _ . . . _ . . . . . . . . . . . 
+4 4 6 8 . . 4 _ 4 4 4 4 4 . . . . 4 4 4 4 4 _ 4 . . 2 C 4 4 
+1 1 1 . . 2 9 1 1 1 1 1 3 8 . . 2 9 1 1 1 1 1 3 8 . . 1 1 1 
+. X . . _ 2 8 . . . . . . . . . . . . . . . . 2 8 _ . . X . 
+. X . . . 2 8 . . . . . . . . . . . . . . . . 2 8 . . . X . 
+4 4 4 . . 2 _ 4 _ 4 4 4 6 8 . . 2 C 4 4 4 _ 4 _ 8 . . 4 4 4 
+1 1 3 8 . . 1 1 1 1 1 1 1 . . . . 1 1 1 1 1 1 1 . . 2 9 1 1 
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+. . 2 C . 4 4 . 4 4 . 4 4 . . . . 4 4 . 4 4 . 4 4 . 6 8 . . 
+. . 2 9 . 3 9 . 3 9 . 3 9 . _ _ . 3 9 . 3 9 . 3 9 . 3 8 . . 
+. . 2 8 . 2 8 . 2 8 . 2 8 . . . . 2 8 . 2 8 . 2 8 . 2 8 . . 
+. . 2 8 . 2 8 . 2 8 . 2 8 . X X . 2 8 . 2 8 . 2 8 . 2 8 . . 
+. . 2 8 . 2 8 . 2 8 . 2 8 . S . . 2 8 . 2 8 . 2 8 . 2 8 . . 
+. . 2 8 . 2 8 . 2 8 . 2 8 . . . . 2 8 . 2 8 . 2 8 . 2 8 . . 
+
+// Floors
+Floor 6 10 1
+Floor 3 3 0
+Floor 10 4 0
+Floor 14 4 0
+Floor 18 4 0
+Floor 22 4 0
+Floor 6 15 0
+Floor 10 15 0
+Floor 21 15 0
+Floor 24 15 0
+
+// Obstacles
+
+// Injureds
+Injured 0 0 526
+Injured 1 0 552
+Injured 2 0 139
+Injured 3 0 862
+Injured 4 0 795
+Injured 5 0 386
+Injured 6 0 25
+Injured 7 0 268
+Injured 8 0 240
+Injured 9 0 152
+Injured 10 0 911
+Injured 11 0 892
+Injured 12 0 873
+Injured 13 0 313
+Injured 14 0 331
+Injured 15 0 119
+Injured 16 0 757
+Injured 17 0 889
+Injured 18 0 680
+Injured 19 0 786
+Injured 20 0 977
+Injured 21 0 254
+Injured 22 0 328
+Injured 23 0 694
+Injured 24 0 738
+Injured 25 0 608
+Injured 26 0 966
+Injured 27 0 64
+Injured 28 0 395
+Injured 29 0 818
+Injured 29 19 473
+Injured 28 19 177
+Injured 27 19 871
+Injured 26 19 447
+Injured 25 19 760
+Injured 24 19 759
+Injured 23 19 877
+Injured 22 19 533
+Injured 21 19 58
+Injured 20 19 993
+Injured 19 19 611
+Injured 18 19 806
+Injured 17 19 801
+Injured 11 19 374
+Injured 10 19 83
+Injured 9 19 866
+Injured 8 19 872
+Injured 7 19 27
+Injured 6 19 49
+Injured 5 19 37
+Injured 4 19 204
+Injured 3 19 502
+Injured 2 19 604
+Injured 1 19 476
+Injured 0 19 908
+Injured 6 8 538
+Injured 6 9 830
+Injured 6 10 426
+Injured 6 11 898
+Injured 23 8 720
+Injured 23 9 572
+Injured 23 10 374
+Injured 23 11 712

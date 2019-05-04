@@ -1,0 +1,125 @@
+// Map size
+30 20
+
+// Cell borders
+. . . . . . . . . . 4 4 4 . . 4 . 4 . . 4 4 4 . . . . . . . 
+. . . . . . 2 A 8 2 9 5 3 8 2 B A B 8 2 9 5 3 8 . . . . . . 
+. . . . . . 2 A 8 2 A F A 8 2 A A A 8 2 A F A 8 . . . . . . 
+. . . . . 4 2 A 8 2 8 5 2 8 2 A A A 8 2 8 5 2 8 . . . . . . 
+. . . . 2 B E A 8 2 A B A 8 2 A E A 8 2 A B A 8 . . . . . . 
+. . . . 2 C 5 6 8 2 A A A 8 2 C 1 6 8 2 A A A 8 . . . . . . 
+. . . . . 1 1 1 . . . _ . 4 _ 1 . 1 _ . . . . . . . . . . . 
+. . . . . . . _ . . . . 2 D 3 8 . . . . . . _ . . . . . . . 
+. . . . . . . . . . . . . 3 A 8 . . . . . . . . . . . . . . 
+. X . . _ . . . . . . . . 2 A 8 . . . . . . . . . _ . . X . 
+. X . . . . . . . . . . . 6 A C . . . . . . . . . . . . X . 
+. . . . . . _ . _ . . . 2 D 4 7 8 . . . . _ . _ . . . . . . 
+. . . . . . . . . 4 4 4 . 5 5 5 . 4 4 4 . . . . . . . . . . 
+. . . . . . . . 2 9 5 7 A 9 5 3 A 9 5 5 . . . . . . . . . . 
+. . . . . . . . 2 A D 1 2 A B A A A D 5 . . . . . . . . . . 
+. . . . . . . . 2 8 7 8 2 A _ _ A C 5 3 8 . . . . . . . . . 
+. . . . . . . . 2 A 9 . 2 A E A 8 5 7 A 8 . . . . . . . . . 
+. . . . . . . . 2 A 8 . 2 C X X 8 5 5 6 8 . . . . . . . . . 
+. . . . . . . . . . . . . 1 S 1 . 1 1 1 . . . . . . . . . . 
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+
+// Floors
+Floor 6 10 1
+Floor 3 3 0
+Floor 10 4 0
+Floor 14 4 0
+Floor 18 4 0
+Floor 22 4 0
+Floor 6 15 0
+Floor 10 15 0
+Floor 21 15 0
+Floor 24 15 0
+
+// Obstacles
+
+// Injureds
+Injured 7 1 416
+Injured 7 2 344
+Injured 7 3 394
+Injured 7 4 99
+Injured 7 5 508
+Injured 6 5 606
+Injured 5 5 246
+Injured 5 4 830
+Injured 10 1 181
+Injured 12 1 579
+Injured 11 1 642
+Injured 11 3 698
+Injured 10 2 875
+Injured 10 3 888
+Injured 10 4 633
+Injured 10 5 813
+Injured 12 2 349
+Injured 12 3 165
+Injured 12 4 172
+Injured 12 5 923
+Injured 15 1 12
+Injured 15 2 882
+Injured 15 3 733
+Injured 15 4 724
+Injured 15 5 956
+Injured 16 5 750
+Injured 17 5 599
+Injured 17 4 959
+Injured 17 3 906
+Injured 17 2 288
+Injured 17 1 42
+Injured 21 1 596
+Injured 20 1 247
+Injured 20 2 828
+Injured 20 3 566
+Injured 21 3 712
+Injured 22 3 543
+Injured 22 2 447
+Injured 22 1 174
+Injured 20 4 59
+Injured 20 5 468
+Injured 22 4 41
+Injured 22 5 120
+Injured 13 7 681
+Injured 14 7 863
+Injured 14 8 59
+Injured 14 9 939
+Injured 14 10 345
+Injured 14 11 721
+Injured 13 11 196
+Injured 15 11 629
+Injured 11 13 20
+Injured 10 13 266
+Injured 9 13 683
+Injured 9 14 749
+Injured 9 15 93
+Injured 10 15 909
+Injured 9 16 708
+Injured 9 17 844
+Injured 13 13 539
+Injured 14 13 826
+Injured 15 13 849
+Injured 15 14 51
+Injured 13 14 797
+Injured 13 15 69
+Injured 13 16 396
+Injured 13 17 958
+Injured 14 17 649
+Injured 15 17 628
+Injured 15 15 839
+Injured 15 16 785
+Injured 19 13 62
+Injured 18 13 628
+Injured 17 13 833
+Injured 17 14 755
+Injured 17 15 507
+Injured 18 15 880
+Injured 19 15 461
+Injured 19 16 59
+Injured 19 17 17
+Injured 18 17 351
+Injured 16 17 677
+Injured 17 17 193
+Injured 19 16 865
+Injured 19 17 714

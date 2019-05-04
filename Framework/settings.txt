@@ -1,0 +1,12 @@
+#Sun Apr 28 11:43:47 CEST 2019
+map=Default.txt
+drone_agent_count=2
+resc_agent_count=2
+width=1070
+left=685
+speed=999
+maximized=0
+static_sensor_count=0
+med_agent_count=2
+top=273
+height=493
